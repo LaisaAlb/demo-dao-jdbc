@@ -105,4 +105,8 @@ public class Seller implements Serializable{
     public String toString() {
         return "Seller{" + "id=" + id + ", name=" + name + ", email=" + email + ", birthDate=" + birthDate + ", baseSalary=" + baseSalary + ", department=" + department + '}';
     }
+
+    public void setDepartment(int i) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
