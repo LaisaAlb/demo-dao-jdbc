@@ -1,5 +1,6 @@
 package model.entities;
 
+import db.DB;
 import java.io.Serializable;
 import java.util.Objects;
 
